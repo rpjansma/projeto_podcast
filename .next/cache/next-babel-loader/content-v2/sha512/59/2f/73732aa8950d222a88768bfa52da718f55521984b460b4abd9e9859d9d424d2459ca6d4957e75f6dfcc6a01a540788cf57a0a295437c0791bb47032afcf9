@@ -1,0 +1,1 @@
+{"ast":null,"code":"export function Player() {}","map":{"version":3,"sources":["/home/raul/Documents/Projects/react/projeto_podcast/src/components/Player/index.tsx"],"names":["Player"],"mappings":"AAEA,OAAO,SAASA,MAAT,GAAkB,CACxB","sourcesContent":["import styles from './styles.module.scss';\n\nexport function Player() {\n}\n"]},"metadata":{},"sourceType":"module"}
