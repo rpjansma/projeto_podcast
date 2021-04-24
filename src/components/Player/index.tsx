@@ -15,25 +15,27 @@ export function Player() {
       <footer>
         <div className={styles.progress}>
           <span>00:00</span>
-          <div className={styles.emptySlider} />
+          <div className={styles.slider}>
+            <div className={styles.emptySlider} />
+          </div>
           <span>00:00</span>
         </div>
 
-        <div>
-          <button>
-            <img src="/suffle.svg" alt="Embaralhar" />
+        <div className={styles.buttons}>
+          <button type="button">
+            <img src="/shuffle.svg" alt="Embaralhar" />
           </button>
-          <button>
+          <button type="button">
             <img src="/play-previous.svg" alt="Tocar anterior" />
           </button>
-          <button>
+          <button type="button" className={styles.playButton}>
             <img src="/play.svg" alt="Tocar" />
           </button>
-          <button>
-            <img src="/suffle.svg" alt="Tocar próxima" />
+          <button type="button">
+            <img src="/play-next.svg" alt="Tocar próxima" />
           </button>
-          <button>
-            <img src="/suffle.svg" alt="Repetir" />
+          <button type="button">
+            <img src="/repeat.svg" alt="Repetir" />
           </button>
         </div>
       </footer>
